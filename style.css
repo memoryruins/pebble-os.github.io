@@ -1,34 +1,21 @@
 ---
 ---
 
-html {
-    font-size: 100%;
-}
-
 body {
     background: white;
     font: 18px/1.4 Helvetica;
     color: #4e5054;
 }
 
-div.container {
-    margin: auto;
-    width: 50%;
-}
-
 div.header {
-    display: flex;
-    padding-top: 10px;
-}
-
-img.logo {
-    padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 nav {
-    float: right;
-    padding-top: 20px;
-    padding-left: 20px;
+    display: inline-block;
 }
 
 nav a {
